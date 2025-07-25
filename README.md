@@ -1,50 +1,80 @@
-# Welcome to your Expo app 👋
+# 🗞️ React Native News App (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile app built with **React Native** and **Expo** that lets users **search and browse the latest news** using a live **News API**. It provides real-time updates, clean UI, and responsive design optimized for both Android and iOS.
 
-## Get started
+---
 
-1. Install dependencies
+## 🔍 Features
 
-   ```bash
-   npm install
-   ```
+- 🔎 **Search for news** by keyword or topic
+- 📰 **View latest headlines** from trusted sources
+- 🖼️ Clean and minimalist **UI with images, titles, and snippets**
+- ⚡ Real-time news fetched from external API
+- 🌐 Uses **REST API** integration for live content
+- 📱 Built with **React Native + Expo** for smooth cross-platform experience
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+> _(Add screenshots here of home screen, search results, and article preview)_
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. 📦 Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/react-native-news-app.git
+cd react-native-news-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. 🔧 Install Dependencies
 
-## Learn more
+ ```bash  
+npm install
+# or
+yarn install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. 📱 Run the App
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
+Use Expo Go on your mobile to scan the QR code and run the app.
 
-## Join the community
+### 🔐 API Key Setup
+This app uses the NewsAPI (or similar).
+You need an API key to fetch the news.
 
-Join our community of developers creating universal apps.
+1. Sign up at newsapi.org and get your API key.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+2. Create a .env file in your project root:
+```bash
+NEWS_API_KEY=your_api_key_here
+```
+3. Load the API key in your app using expo-constants or react-native-dotenv
+
+### 📁 Project Structure
+```bash
+.
+├── assets/                  # App assets (icons, images)
+├── components/              # Reusable components (NewsItem, SearchBar)
+├── screens/                 # Screens like Home, Search
+├── api/                     # API call functions
+├── App.js                   # Main entry point
+└── README.md
+```
+
+ ### 🔧 Built With
+ 
+- ⚛️ React Native
+- 📦 Expo
+- 🌐 Fetch / Axios (for API calls)
+- 🧩 React Navigation
+- 💅 Styled Components / Tailwind / CSS-in-JS
+
+### 👨‍💻 Author
+[Connect on LinkedIn](https://www.linkedin.com/in/moezzakir/)
