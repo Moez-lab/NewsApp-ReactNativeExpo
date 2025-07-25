@@ -15,12 +15,6 @@ A modern mobile app built with **React Native** and **Expo** that lets users **s
 
 ---
 
-## 📸 Screenshots
-
-> _(Add screenshots here of home screen, search results, and article preview)_
-
----
-
 ## 🚀 Getting Started
 
 ### 1. 📦 Clone the Repository
